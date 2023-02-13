@@ -1,0 +1,16 @@
+
+.app-heading{
+    border: 5px solid black;
+    padding:5px;
+    background-color: rgb(48, 153, 95);
+    font-size:20px;
+    border-radius:15px;
+     
+} 
+
+.btn{
+    background-color: tomato;
+    padding:5px;
+    color:white;
+    margin:5px;
+}
