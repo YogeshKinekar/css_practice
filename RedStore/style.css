@@ -254,13 +254,15 @@ ul{
     display: none;
 }
 /* ----------- media query for menu -------- */
-@media only screem and (max-width:800px){
+@media only screen and (max-width:800px){
     nav ul{
         position: absolute;
         top:70px;
         left:0;
         background: #333;
-        width: 100px;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
 
     }
     nav ul li{
@@ -278,3 +280,5 @@ ul{
         cursor: pointer;
     }
 }
+ /* ---------media query for 600px--------- */
+ 
