@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      ul{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+      }
+      ul li{
+        list-style: none;
+        margin: 0 23px;
+        padding: 22px 0;
+      }
+      header{
+        background-color: black;
+        color: white;
+      }
+      body{
+        background-color: green;
+      }
+      @media screen and (max-width:800px){
+        body{
+            background-color: red;
+        }
+      }
+      @media screen and (max-width:550px){
+        body{
+            background-color: yellow;
+        }
+      }
+      .box1{
+        color: rgb(39, 12, 65);
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+               <li>Home</li>
+               <li>About</li> 
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nostrum enim molestiae! Est, distinctio dolor? Sapiente consectetur veritatis numquam eum id dolores nemo accusamus quisquam explicabo corrupti quasi in, temporibus hic quia libero earum dolorem nostrum aliquam repellat a laudantium iure ratione. Ipsum, numquam illum?
+    </div>
+    <div class="box1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, dignissimos. Amet tempora dolore illum officiis debitis, voluptate vitae ab rerum tempore ut laboriosam ipsum adipisci. Delectus culpa, neque quis laboriosam dolorem reprehenderit aperiam numquam!
+        <div class="box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolore consequatur neque, quidem, impedit quos beatae veniam voluptas fuga temporibus officiis molestias incidunt! Quam eum aspernatur deserunt pariatur ratione iure ut iusto quidem nisi.
+        </div>
+    </div>
+</body>
+</html>
