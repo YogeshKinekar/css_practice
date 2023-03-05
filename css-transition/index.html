@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 455px;
+        }
+        .box{
+            border: 2px solid black;
+            display:inline-block;
+            
+        }
+        img:hover{
+            width:56px;
+        }
+        img{
+            height: 455px;
+            width: 146px;
+            /* transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-delay: 3s; */
+            transition: width 1s ease-in-out 2s, height 4s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           <img id="myImage" src="https://media.istockphoto.com/id/1400838553/photo/happy-young-caucasian-man-working-on-laptop-while-his-wife-stands-next-to-him-looking-at-the.jpg?b=1&s=170667a&w=0&k=20&c=MH5RbIZ3z6L-QibuF6X3v2bX3RKtpYs-CrlklWvgPI8=" >
+           <button id="btn">Toggle</button>
+        </div>
+    </div>
+</body>
+<script>
+    myImage.style.height = "16px";
+    myImage.style.width = "146px"
+    btn.addEventListener("click", ()=>{
+        myImage.style.height = "456px";
+        if(myImage.style.width === "546px"){
+            myImage.style.width = "146px";
+        }
+        else if(myImage.style.width === "146px"){
+            myImage.style.width = "546px"
+        }
+    })
+</script>
+</html>
