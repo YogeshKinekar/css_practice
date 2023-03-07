@@ -58,6 +58,15 @@ nav ul li a:hover{
     font-family: 'Lato', sans-serif;
     font-weight: 900;
 }
+.slider{
+    margin: 12px auto; 
+    width: 60vw;
+
+}
+.slider img{
+    height: 400px;
+    width: 800px;
+}
 .container{
     min-height: calc(100vh - 58px - 12vh);
 }
