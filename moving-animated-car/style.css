@@ -19,6 +19,7 @@ body{
     background-image: url(trees.png);
     background-size: cover;
     position: absolute;
+    top:-144px;
 }
 .track{
     position: absolute;
@@ -27,4 +28,28 @@ body{
     background-image: url(track.png);
     background-size: cover;
     top:70vh;
+}
+.car{
+    height: 100px;
+    width: 380px;
+    background-image: url(car_body.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:444px;
+    bottom: 50px;
+}
+
+.wheel1 img{
+ width: 77px;
+ position: relative;
+ top: 40px;
+ left:41px;
+}
+
+.wheel2 img{
+    width: 77px;
+ position: relative;
+ top: -40px;
+ left: 234px;
 }
